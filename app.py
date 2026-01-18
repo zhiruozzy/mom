@@ -25,7 +25,7 @@ def get_best_model():
         # 定义偏好顺序（1.5-flash 比较稳健）
         # 注意：SDK 有时返回带 models/ 的名称，有时不带，这里做兼容处理
         preferences = [
-            "gemini-1.5-flash", 
+            "gemini-2.5-flash", 
             "models/gemini-1.5-flash",
             "gemini-1.5-flash-latest",
             "gemini-2.0-flash"
